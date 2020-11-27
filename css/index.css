@@ -1,0 +1,271 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Global styles
+--------------------------------------------*/
+body {
+  background: white;
+  font-family: "Poppins", sans-serif;
+  color: rgb(47, 79, 79);
+}
+/* This is top navigating bar section
+--------------------------------------------*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  height: 16vh;
+  background-color: rgb(47, 79, 79);
+}
+.top {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+
+.nav-links {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a:hover {
+  color: grey;
+  position: relative;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+body {
+  background-color: white;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+/*This is self-introducing section
+--------------------------------------------*/
+.pic img {
+  position: absolute;
+  top: 220px;
+  left: 200px;
+}
+.name {
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 3px;
+  font-size: 70px;
+  padding-bottom: 60px;
+  padding-top: 200px;
+  padding-left: 500px;
+}
+.pic {
+  background: white;
+  margin-bottom: 5;
+}
+.myTitle {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 480px;
+}
+/*An adventure section
+--------------------------------------------*/
+.rocket {
+  margin-top: 210px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  line-height: 1.6;
+  background: white;
+}
+
+.aboutMe {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  color: rgb(47, 79, 79);
+  background: rgb(135, 206, 235);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.aboutMe h1 {
+  font-size: 40px;
+  line-height: 1.6;
+  letter-spacing: 2.8px;
+}
+.aboutMe h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  letter-spacing: 1.4px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.aboutMe p {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 1.4;
+}
+.rocket2 {
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  line-height: 1.6;
+  background: white;
+}
+
+.Skills {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  color: white;
+  background: rgb(0, 0, 205);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Skills h1 {
+  font-size: 40px;
+  line-height: 1.6;
+  letter-spacing: 2.8px;
+}
+
+.Skills h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.Skills pre {
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+.rocket3 {
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  line-height: 1.6;
+  background: white;
+}
+.Education {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  color: white;
+  background: rgb(0, 0, 139);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Education h1 {
+  font-size: 40px;
+  line-height: 1.6;
+  letter-spacing: 2.8px;
+}
+
+.Education h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.Education p {
+  font-size: 20px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 1.4;
+}
+
+.rocket4 {
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  line-height: 1.6;
+  background: white;
+}
+
+.Project {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  color: white;
+  background: rgb(0, 0, 128);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Project h1 {
+  font-size: 40px;
+  line-height: 1.6;
+  letter-spacing: 2.8px;
+}
+.Project pre {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.Project h2 {
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.rocket5 {
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  line-height: 1.6;
+  background: white;
+}
+
+.iss {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  color: white;
+  background: rgb(25, 25, 112);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.iss h1 {
+  font-size: 40px;
+  line-height: 1.6;
+  letter-spacing: 2.8px;
+}
+.iss p {
+  font-size: 20px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 1.4;
+  padding-bottom: 50px;
+}
